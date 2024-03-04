@@ -1,0 +1,95 @@
+html {
+  background: url(images/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.847);
+  width: 600px;
+  margin: auto;
+  margin-top: 30px;
+  border: 3px solid rgba(128, 0, 128, 1);
+  border-radius: 25px;
+}
+
+div {
+  background-color: rgba(128, 0, 128, 1);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+#login {
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.inp1-2 {
+  border: 1px solid purple;
+}
+
+hr {
+  width: 300px;
+  border: 1px solid rgba(198, 167, 198, 1);
+}
+
+.button {
+  background-color: rgba(0, 128, 0, 1);
+  color: white;
+  font-weight: 500;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+#forg {
+  font-style: italic;
+  font-family: "Georgia";
+}
+
+#forg-link {
+  color: white;
+  text-decoration: none;
+}
+
+.img-main {
+  width: 380px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.img-facebook {
+  width: 55px;
+  padding-right: 12px;
+}
+
+.img-youtube {
+  width: 55px;
+  padding-right: 6px;
+}
+
+.img-twitter {
+  width: 55px;
+  padding-left: 6px;
+}
+
+.img-instagram {
+  width: 55px;
+  padding-left: 12px;
+}
+
+#forg-link:hover {
+  color: yellow;
+  text-decoration: underline;
+  transition: 1s;
+}
